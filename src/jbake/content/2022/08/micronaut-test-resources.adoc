@@ -26,7 +26,7 @@ Here are a couple of traditional solutions to this problem:
 2. Use a library like https://www.testcontainers.org/[Testcontainers] in order to simplify the setup
 
 In general, using https://www.testcontainers.org/[Testcontainers] is preferred, because it integrates well with the JVM and provides an API which can be used in tests to spawn containers and interact with them.
-However, a better integration between Micronaut and Testcontainer can improve the developer experience in several ways: 
+However, a better integration between Micronaut and Testcontainers can improve the developer experience in several ways: 
 
 - simplify the container lifecycle configuration by providing an opinionated framework-specific default way, making you think less of how to setup it in the individual tests.
 - isolate it better from your application making it simpler to reason about dependencies (and transitive dependencies), not just for the developer, but for example tools enabling native mode as well.
